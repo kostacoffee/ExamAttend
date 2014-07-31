@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimplifiedMessages</name>
+    </assembly>
+    <members>
+        <member name="M:SimplifiedMessages.SimplifiedMessageBox.Error(System.String)">
+            <summary>Error Box</summary>
+            <param name="message">Message to be shown in the box</param>
+        </member>
+        <member name="M:SimplifiedMessages.SimplifiedMessageBox.Info(System.String)">
+            <summary>
+            Information box
+            </summary>
+            <param name="message">Message to be shown in the box</param>
+        </member>
+        <member name="M:SimplifiedMessages.SimplifiedMessageBox.Question(System.String)">
+            <summary>
+            Question box
+            </summary>
+            <param name="message">Message to be shown in the box</param>
+            <returns>The decision of the user (Yes/No)</returns>
+        </member>
+        <member name="M:SimplifiedMessages.SimplifiedMessageBox.Warning(System.String)">
+            <summary>
+            Warning box
+            </summary>
+            <param name="message">Message to be shown in the box</param>
+        </member>
+        <member name="M:SimplifiedMessages.SimplifiedMessageBox.standardMsg(System.String,System.String)">
+            <summary>
+            Standard message box - no icons or special returns.
+            </summary>
+            <param name="message">Message to be shown in the box</param>
+            <param name="title">Title at the top of the box</param>
+        </member>
+    </members>
+</doc>

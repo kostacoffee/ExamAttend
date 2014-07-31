@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UI/ExamSetupUI.cs">
+    <Files>
+      <File FileName="Attender.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="UI/ExamAttenderUI.cs" Line="17" Column="37" />
+      <File FileName="UI/BaseUI.cs" Line="32" Column="6" />
+      <File FileName="Setup.cs" Line="1" Column="1" />
+      <File FileName="UI/ExamSetupUI.cs" Line="9" Column="10" />
+      <File FileName="SubjectRollDatabase.cs" Line="54" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ExamAttend" expanded="True">
+            <Node name="UI" expanded="True">
+              <Node name="ExamAttenderUI.cs" expanded="True" />
+              <Node name="ExamSetupUI.cs" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
