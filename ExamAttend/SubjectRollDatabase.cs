@@ -55,7 +55,7 @@ namespace ExamAttend
         private List<T> processFile<T>(string filePath, FileOperation<T> op, List<T> dataStore)
         {
             string[] lines = File.ReadLines(filePath).ToArray();
-            for (int i = 0; i < lines.Length; i++)
+            for (int i = 1; i < lines.Length; i++) //skipping 1st line - field names 
             {
                 op(lines[i].Split(','), i, dataStore);
             }
